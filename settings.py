@@ -12,7 +12,13 @@ class ModelConfig(BaseModel):
     key: str
 
 class Settings(BaseSettings):
-    """Describes the available settings for the .env file"""
+    """Describes the available settings for the .env file
+
+    Examples:
+        export MODEL_A__NAME=gemini-2.5-flash-lite
+        export MODEL_A__KEY=DONT_EXPECT_THIS_TO_BE_MY_SECRET
+
+    """
 
     class Config:
         env_file: str = ".env"

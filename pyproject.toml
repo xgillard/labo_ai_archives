@@ -5,9 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "docling>=2.63.0",
+    "langchain>=1.0.8",
+    "langchain-docling>=2.0.0",
     "langchain-google-genai>=3.1.0",
+    "langchain-mistralai>=1.0.1",
+    "langchain-openai>=1.0.3",
+    "mistralai>=1.9.11",
+    "ollama>=0.6.1",
+    "openai>=2.8.1",
     "pydantic>=2.12.4",
     "pydantic-settings>=2.12.0",
+    "python-dotenv>=1.2.1",
     "streamlit>=1.51.0",
 ]
 
